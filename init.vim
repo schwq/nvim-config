@@ -26,5 +26,17 @@ Plug 'https://github.com/sainnhe/sonokai.git'
 Plug 'https://github.com/joshdick/onedark.vim.git'
 Plug 'https://github.com/FrenzyExists/aquarium-vim.git'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'https://github.com/Mangeshrex/uwu.vim.git'
+Plug 'https://github.com/ghifarit53/tokyonight-vim.git'
+Plug 'https://github.com/bluz71/vim-moonfly-colors.git'
+Plug 'https://github.com/kyoz/purify.git'
+Plug 'https://github.com/rafalbromirski/vim-aurora.git'
+Plug 'https://github.com/haoyu953/pride.vim.git'
+
+
+
 call plug#end()
-colorscheme sonokai
+colorscheme uwu
+colorscheme tokyonight
+AirlineTheme minimalist
