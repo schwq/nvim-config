@@ -1,5 +1,6 @@
-	
+
 set number
+set relativenumber
 call plug#begin('~/AppData/Local/nvim/plugged')
 
 set tabstop=4
@@ -33,10 +34,11 @@ Plug 'https://github.com/bluz71/vim-moonfly-colors.git'
 Plug 'https://github.com/kyoz/purify.git'
 Plug 'https://github.com/rafalbromirski/vim-aurora.git'
 Plug 'https://github.com/haoyu953/pride.vim.git'
-
-
-
+Plug 'junegunn/fzf.vim'
+Plug 'https://github.com/xiyaowong/nvim-transparent.git'
 call plug#end()
-colorscheme uwu
-colorscheme tokyonight
-AirlineTheme minimalist
+
+set guifont=Iosevka\ Term:h10
+let g:transparent_enabled = v:true
+colorscheme everblush
+let g:airline_theme='onedark'
