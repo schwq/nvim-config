@@ -36,6 +36,9 @@ Plug 'https://github.com/rafalbromirski/vim-aurora.git'
 Plug 'https://github.com/haoyu953/pride.vim.git'
 Plug 'junegunn/fzf.vim'
 Plug 'https://github.com/xiyaowong/nvim-transparent.git'
+Plug 'https://github.com/ap/vim-css-color.git'
+Plug 'https://github.com/bfrg/vim-cpp-modern.git'
+
 call plug#end()
 
 set guifont=Iosevka\ Term:h10
